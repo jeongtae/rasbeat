@@ -1,7 +1,5 @@
 <h1 align="center">rasbeat</h1>
 
-> Rasbeat is a Jubeat like game.
-
 ![Logo of Rasbeat](logo.png)
 
 ##  Introduction
@@ -99,12 +97,12 @@ You can play the video by clicking the images below.
 
 ### Russian Snowy Dance ADV
 
-*Click the image to open YouTube page*
+*Click the image to open YouTube page*  
 [![YouTube video link of Russian Snowy Dance ADV](http://img.youtube.com/vi/jiUnu_zeroI/0.jpg)](https://youtu.be/jiUnu_zeroI)
 
 ### Sky High ADV (Autoplay)
 
-*Click the image to open YouTube page*
+*Click the image to open YouTube page*  
 [![YoTube video link of Sky High ADV (Autoplay)](http://img.youtube.com/vi/CnbSosCr9Ec/0.jpg)](https://youtu.be/CnbSosCr9Ec)
 
 ## Machine-making journal
