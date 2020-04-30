@@ -1,0 +1,62 @@
+// Button Mappings (Keyboard)
+// Key Codes : https://www.appgamekit.com/documentation/guides/scancodes.htm
+key=0  // 0:Disable 1:Enable
+key1=49
+key2=50
+key3=51
+key4=52
+key5=81
+key6=87
+key7=69
+key8=82
+key9=65
+key10=83
+key11=68
+key12=70
+key13=90
+key14=88
+key15=67
+key16=86
+key17=13  // for special button
+
+// Button Mappings (GPIO)
+gpio=2  // 0:Disable 1:Enable 2:Enable & ReverseState
+gpio1=20
+gpio2=13
+gpio3=16
+gpio4=19
+gpio5=12
+gpio6=6
+gpio7=11
+gpio8=8
+gpio9=21
+gpio10=26
+gpio11=5
+gpio12=24
+gpio13=10
+gpio14=9
+gpio15=7
+gpio16=25
+gpio17=27  // for special button
+
+// Revising Playhead
+// (allowing range 0.0~1.0)
+section1_start=0.000
+section1_weight=0.03
+section2_start=0.020
+section2_weight=0.10
+section3_start=0.035
+section3_weight=0.20
+section4_start=0.150
+section4_weight=0.50
+
+// 이 게임은 두 가지 방법을 혼합하여 음악과 채보를 동기화하고 있습니다. 
+// 하나는 단순히 음악의 시작 시간부터 시간을 재서 싱크를 맞추는 것이고
+// 나머지 하나는 MP3파일의 현재 재생 위치를 체크해서 싱크를 맞추는 것입니다.
+// 전자의 방법은 노트의 흐름이 매우 매끄럽지만 시간이 갈수록 싱크가 틀어지는 문제가 있고
+// 후자의 방법은 싱크는 정확하지만 항상 약간의 오차가 있습니다.
+// 그래서 기본적으로 전자의 방법으로 재생위치를 다루되
+// 후자의 방법으로 알아낸 재생위치 값과의 차이를 계산하고
+// 그 차이의 양(오차)에 따라 구간별로 나누어 후자의 방법으로 알아낸  재생위치 값을 얼마나 적용할지 결정합니다.
+// 후자의 방법으로 알아낸 값을 적용할 퍼센테이지가 weight 값이며(0.0 ~ 1.0)
+// 해당  구간이 몇 초의 오차가 있을 때 부터 시작되는가에 대한 값은 start입니다. (0.001 = 1ms)

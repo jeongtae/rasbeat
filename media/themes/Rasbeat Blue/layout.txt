@@ -1,0 +1,236 @@
+// Simple Effect Color
+
+effect_perfect_color = 200, 200, 200
+effect_great_color = 200, 50, 200
+effect_good_color = 50, 50, 200
+effect_bad_color = 200, 50, 50
+
+
+// MUSIC LIST UPPER SCREEN
+
+mlu_cover_x = 0.0283203
+mlu_cover_y = 0.0828125
+mlu_cover_width = 0.4042969
+mlu_cover_height = 0.6453125
+
+mlu_title_x = 0.50
+mlu_title_y = 0.39
+mlu_title_size = 0.04
+mlu_title_maxwidth = 0.45
+mlu_title_color = 0, 0, 0
+mlu_title_align = 0
+mlu_title_valign = 2
+
+mlu_artist_x = 0.51
+mlu_artist_y = 0.399
+mlu_artist_size = 0.025
+mlu_artist_maxwidth = 0
+mlu_artist_color = 0, 0, 0
+mlu_artist_align = 0
+mlu_artist_valign = 0
+
+mlu_lastplayed_x = 0.67
+mlu_lastplayed_y = 0.60
+mlu_lastplayed_size = 0.022
+mlu_lastplayed_maxwidth = 0
+mlu_lastplayed_color = 0, 0, 0
+mlu_lastplayed_align = 2
+mlu_lastplayed_valign = 0
+
+mlu_bpm_x = 0.085
+mlu_bpm_y = 0.968
+mlu_bpm_size = 0.0275
+mlu_bpm_color = 0, 0, 0
+mlu_bpm_align = 0
+mlu_bpm_valign = 1
+
+mlu_notes_x = 0.312
+mlu_notes_y = 0.968
+mlu_notes_size = 0.0275
+mlu_notes_color = 0, 0, 0
+mlu_notes_align = 0
+mlu_notes_valign = 1
+
+mlu_musiclength_x = 0.937
+mlu_musiclength_y = 0.968
+mlu_musiclength_size = 0.025
+mlu_musiclength_color = 0, 0, 0
+mlu_musiclength_align = 1
+mlu_musiclength_valign = 1
+
+mlu_dif_x = 0.4971
+mlu_dif_y = 0.1469
+mlu_dif_width = 0.1865
+mlu_dif_height = 0.0597
+
+mlu_lv_x = 0.8115
+mlu_lv_y = 0.0766
+mlu_lv_width = 0.1143
+mlu_lv_height = 0.1828
+
+mlu_fullcombo_x = 0.7374
+mlu_fullcombo_y = 0.6563
+mlu_fullcombo_width = 0.1787
+mlu_fullcombo_height = 0.0715
+
+mlu_highscore_x = 0.882  // final digits x
+mlu_highscore_y = 0.573
+mlu_highscore_width = 0.03  // digits width
+mlu_highscore_height = 0.096  // digits height
+mlu_highscore_spacing = -0.1
+
+mlu_highscoretime_x = 0.0
+mlu_highscoretime_y = 0.0
+mlu_highscoretime_size = 0.022
+mlu_highscoretime_maxwidth = 0
+mlu_highscoretime_color = 0, 0, 0
+mlu_highscoretime_align = 2
+mlu_highscoretime_valign = 0
+
+mlu_rating_x = 0.910
+mlu_rating_y = 0.5877
+mlu_rating_width = 0.040
+mlu_rating_height = 0.064
+
+mlu_mbar_x = 0.125
+mlu_mbar_y = 0.835
+mlu_mbar_width = 0.75
+// can not specity mbar height value
+
+// MUSIC LIST LOWER SCREEN
+
+mll_title_x = 0.1
+mll_title_y = 0.02
+mll_title_size = 0.1
+mll_title_maxwidth = 0.8
+mll_title_color = 0, 0, 0
+mll_title_align = 0
+mll_title_valign = 0
+
+mll_coverdefault_x = 0.09
+mll_coverdefault_y = 0.14
+mll_coverdefault_width = 0.82
+mll_coverdefault_height = 0.82
+
+mll_cover_x =0.1
+mll_cover_y =0.15
+mll_cover_width = 0.8
+mll_cover_height = 0.8
+
+mll_disk_x = 0.0
+mll_disk_y = 0.05
+mll_disk_width = 1.0
+mll_disk_height = 1.0
+
+mll_lv_x = 0.62
+mll_lv_y = 0.7
+mll_lv_width = 0.4
+mll_lv_height = 0.4
+
+mll_rating_x = 0.025
+mll_rating_y = 0.38
+mll_rating_width = 0.15
+mll_rating_height = 0.15
+mll_rating_direction = 90  // in degree
+mll_rating_spacing = 0.15
+
+mll_hold_x = 0.70
+mll_hold_y = 0.10
+mll_hold_width = 0.25
+mll_hold_height = 0.25
+
+mll_togglebuttontext_x = 0.5
+mll_togglebuttontext_y = 0.52
+mll_togglebuttontext_size = 0.125
+mll_togglebuttontext_maxwidth = 0.8
+mll_togglebuttontext_color = 0, 0, 0
+mll_togglebuttontext_align = 1
+mll_togglebuttontext_valign = 1
+
+mll_sortingbuttontext_x = 0.5
+mll_sortingbuttontext_y = 0.6
+mll_sortingbuttontext_size = 0.125
+mll_sortingbuttontext_maxwidth = 0.8
+mll_sortingbuttontext_color = 255, 255, 255
+mll_sortingbuttontext_align = 1
+mll_sortingbuttontext_valign = 1
+
+
+// IN GAME UPPER SCREEN
+
+ig_cover_x = 0.038
+ig_cover_y = 0.06
+ig_cover_width = 0.25
+ig_cover_height = 0.4
+
+ig_score_x = 0.87  // final digits x
+ig_score_y = 0.485
+ig_score_width = 0.1  // digits width
+ig_score_height = 0.32  // digits height
+ig_score_spacing = -0.1
+
+ig_title_x = 0.315
+ig_title_y = 0.235
+ig_title_size = 0.05
+ig_title_maxwidth = 0.6
+ig_title_color = 0, 0, 0
+ig_title_align = 0
+ig_title_valign = 2
+
+ig_artist_x = 0.32
+ig_artist_y = 0.25
+ig_artist_size = 0.03
+ig_artist_maxwidth = 0.55
+ig_artist_color = 0, 0, 0
+ig_artist_align = 0
+ig_artist_valign = 0
+
+ig_bpm_x = 0.38
+ig_bpm_y = 0.335
+ig_bpm_size = 0.03
+ig_bpm_color = 0, 0, 0
+ig_bpm_align = 0
+ig_bpm_valign = 0
+
+ig_notes_x = 0.415
+ig_notes_y = 0.386
+ig_notes_size = 0.03
+ig_notes_color = 0, 0, 0
+ig_notes_align = 0
+ig_notes_valign = 0
+
+ig_musicplayhead1_x = 0.045
+ig_musicplayhead1_y = 0.97
+ig_musicplayhead1_size = 0.025
+ig_musicplayhead1_color = 0, 0, 0
+ig_musicplayhead1_align = 1
+ig_musicplayhead1_valign = 1
+
+ig_musicplayhead2_x = 0.93
+ig_musicplayhead2_y = 0.97
+ig_musicplayhead2_size = 0.025
+ig_musicplayhead2_color = 0, 0, 0
+ig_musicplayhead2_align = 1
+ig_musicplayhead2_valign = 1
+
+ig_dif_x = 0.03
+ig_dif_y = 0.55
+ig_dif_width = 0.25
+ig_dif_height = 0.08
+
+ig_lv_x = 0.17
+ig_lv_y = 0.63
+ig_lv_width = 0.075
+ig_lv_height = 0.12
+
+ig_newrecord_x = 0.59
+ig_newrecord_y = 0.335
+ig_newrecord_width = 0.3574
+ig_newrecord_height = 0.1430
+
+ig_mbar_x = 0.125
+ig_mbar_y = 0.835
+ig_mbar_width = 0.75
+// can not specity mbar height value
+
+ig_mbar_scale = 1.406

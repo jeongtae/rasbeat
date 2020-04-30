@@ -1,0 +1,68 @@
+lang = English
+font = NotoSansCJK_KR_Light.ttf
+boldfont = NotoSansCJK_KR_Medium.ttf
+
+// Music
+MUSIC_TITLE_UNDEFINED = Unnamed
+MUSIC_ARTIST_UNDEFINED =  Undefined
+MUSIC_NOT_PLAYED = Not played yet.
+
+LIBRARY_UPDATING = Updating Library
+LIBRARY_UPDATING_COMPTETE = Updated
+LIBRARY_N_ERRORS_OCCURED = %d errors occured.
+LIBRARY_ERROR_N_CODE_C = Error %d (Code %c)
+LIBRARY_PRESS_ANY_BUTTON_TO_CONTINUE = Press any button to continue.
+
+// Time
+TIME_YM =  %m / %y
+TIME_W_WEEKS_AGO = %w Weeks ago
+TIME_LAST_WEEK = Last week
+TIME_D_DAYS_AGO = %d Days ago
+TIME_YESTERDAY = Yesterday
+TIME_H_HOURS_AGO = %h Hours ago
+TIME_M_MINUTES_AGO = %m Minutes ago
+TIME_MOMENT_AGO = Moment ago
+
+// Settings
+SETTINGS_SORT_BY_TITLE = Sort by%nTitle
+SETTINGS_SORT_BY_ARTIST = Sort by%nArtist
+SETTINGS_SORT_BY_LEVELBASIC = Sort by%nLevel%nBSC
+SETTINGS_SORT_BY_LEVELADVANCED = Sort by%nLevel%nADV
+SETTINGS_SORT_BY_LEVELEXTREME = Sort by%nLevel%nEXT
+SETTINGS_SORT_BY_HIGHSCOREALL = Sort by%nHighscore%nALL
+SETTINGS_SORT_BY_HIGHSCOREBASIC = Sort by%nHighscore%nBSC
+SETTINGS_SORT_BY_HIGHSCOREADVANCED = Sort by%nHighscore%nADV
+SETTINGS_SORT_BY_HIGHSCOREEXTREME = Sort by%nHighscore%nEXT
+SETTINGS_SORT_BY_LASTPLAYEDTIMEALL = Sort by%nLast Played Time%nALL
+SETTINGS_SORT_BY_LASTPLAYEDTIMEBASIC = Sort by%nLast Played Time%nBSC
+SETTINGS_SORT_BY_LASTPLAYEDTIMEADVANCED = Sort by%nLast Played Time%nADV
+SETTINGS_SORT_BY_LASTPLAYEDTIMEEXTREME = Sort by%nLast Played Time%nEXT
+SETTINGS_AUTOPLAY = Autoplay
+SETTINGS_CLAPSOUND = Clap%nSound
+SETTINGS_SIMPLEEFFECT = Simplize%nEffect
+SETTINGS_HIGHLIGHTHOLDMARKER = Highlight%nHold Marker
+
+// Memo Error
+ERR_MEMO_PARSING_ERROR = Memo Parsing Error
+ERR_MEMO_FILE_HAS_BEEN_OVERRIEDED = Some memo file has been overrided.
+ERR_MEMO_CAN_BE_PARSED_ONLY_RASMEMO_TYPE = Supports rasmemo type.//Code10
+ERR_MEMO_FILE_IS_NOT_EXISTING = Memo file is not existing.//Code1
+ERR_MEMO_FAILED_TO_OPEN_FILE = Failed to open memo file.//Code2
+ERR_MEMO_UNINTELLIGIBLE_LINE = Unintelligible line.//Code12
+ERR_MEMO_SUPPORTS_ONLY_MP3 = Supports only MP3 type.//Code5
+ERR_MEMO_SPECIFIED_WRONG_PRELISTENINGPLAYHEAD = Specified wrong prelistening playhead.//Code7
+ERR_MEMO_MUSIC_FILE_IS_NOT_EXISTING = Music file is not existing.//Code6
+ERR_MEMO_COVER_FILE_IS_NOT_EXISTING = Cover file is not existing.//Code9
+ERR_MEMO_MUSIC_FILE_NOT_SPECIFIED = Must specify music file.//Code14
+ERR_MEMO_SUPPORTS_ONLY_PNG_JPG = Supports only PNG and JPG type images.//Code8
+ERR_MEMO_SPECIFIED_WRONG_TEMPO = Specified wrong tempo value.//Code4
+ERR_MEMO_SPECIFIED_WRONG_TIME = Specified wrong time value.//Code22
+ERR_MEMO_TEMPO_IS_ZERO = Tempo value is zero.//Code11
+ERR_MEMO_IS_NOT_COMPLETED = Memo is not completed.//Code15
+ERR_MEMO_HOLD_NOTE_OVERLAPPED = Some hold note has been overlapped.//Code13
+ERR_MEMO_ENDLESS_HOLD_NOTE = There is endless hold note.//Code16
+ERR_MEMO_INTERRUPTING_BUTTONS_MAP = Button map is interrupted by other syntax.//Code3
+ERR_MEMO_SPECIFIED_WRONG_DIF = Specified wrong difficulty value.//Code18
+ERR_MEMO_NOT_SPECIFIED_DIF = Not specified difficulty value.//Code19
+ERR_MEMO_SPECIFIED_WRONG_LEVEL = Specified wrong level value.//Code20
+ERR_MEMO_NOT_SPECIFIED_LEVEL = Not specivied level value.//Code21
