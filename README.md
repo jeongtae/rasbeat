@@ -111,3 +111,9 @@ I made the actual working Rasbeat machine.
 You can read the journal on [my blog](https://rsatang5.blog.me/221174472581). (in Korean language)
 
 [Scan Codes]: https://www.appgamekit.com/documentation/guides/scancodes.htm
+
+## Author
+
+- **Naver Blog**: [@rsatang5](https://rsatang5.blog.me)
+- **GitHub**: [@jeongtae](https://github.com/jeongtae)
+- **E-mail**: [jtk101@icloud.com](mailto:jtk101@icloud.com)
